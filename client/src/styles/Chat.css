@@ -1,0 +1,125 @@
+/* Chat Header */
+.group-title-symbol {
+  padding: 0 15px;
+  color: #72767d;
+}
+
+.channel-title {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05)!important;
+  height: 48px;
+  font-size: 16px;
+}
+
+/* Main Chat */
+.log-container {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.logs-container {
+  display: flex;
+  flex-direction: column;
+  color: #fff!important;
+  font-size: 1em;
+  line-height: 1.375rem;
+  height: 100%;
+  /*justify-content: flex-end;*/
+}
+
+.logs-container:first-child {
+  /* margin-top: 10px; */
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-right: 20px;
+}
+
+.message-header-container {
+  display: flex;
+}
+.message {
+  color: #DCDDDE;
+  font: 16px;
+}
+
+.log {
+  display: flex;
+  margin-top: 10px;
+  padding: 5px 20px 0px;
+}
+
+.log:hover {
+  background-color: rgb(50, 53, 59);
+}
+
+.displayName-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hover-timestamp {
+  visibility: hidden; 
+  width: 76px;
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.appended-message:hover {
+  background-color: rgb(50, 53, 59);
+}
+
+.appended-message:hover > .hover-timestamp {
+  visibility: visible;
+}
+
+/* Channel Welcome */
+.channel-welcome {
+  margin-top: auto;
+  margin-left: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid hsla(0,0%,100%,.02);
+}
+
+.channel-welcome-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 8px 0;
+}
+
+.channel-welcome-subtext {
+  color: #b9bbbe;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.edit-channel {
+  padding: 12px 0 0;
+  color: #00b0f4;
+  font-size: 14px;
+}
+
+.error-message-container {
+  color: white;
+  background: red;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.error-close-button:hover {
+  cursor: pointer;
+}

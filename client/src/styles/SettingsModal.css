@@ -1,0 +1,132 @@
+.setting-flex-container {
+  display: flex;
+
+}
+
+.right-grid {
+ display: flex;
+}
+.setting-main {
+  flex-grow: 1;
+  width: 100%;
+  padding: 60px 40px 80px;
+  /* border: 1px solid red; */
+}
+
+.setting-fixed-container {
+  position: relative;
+  width: 50px;
+  padding-top: 60px;
+  margin-right: 150px;
+  /* border: 1px solid blue; */
+}
+
+.setting-exit {
+  position: fixed;
+  width: inherit;
+  text-align: center;
+  color: #72767d;
+  cursor: pointer;
+  right: 30%;
+}
+
+.exit-text {
+  color: #72767d;
+  margin-top: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.settings-modal-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.settings-modal-info{
+  margin-left: 10px;
+}
+
+.user-modal-title {
+  color:white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.profile-info-container {
+ background-color: rgba(32, 34, 37, 0.6);
+ padding: 20px;
+ border: 1px solid #202225;
+ border-radius: 5px;
+ display: flex;
+ max-width: 60%;
+}
+
+/* button */
+.settings-modal-edit {
+  position: relative;
+  right: 1%;
+  height: 32px;
+  min-width: 60px;
+  color: white;
+  background-color: #7289da;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.settings-modal-info {
+  display: block;
+  width:100%;
+  padding-right: 20px;
+}
+
+.settings-modal-subtitle {
+  margin-bottom: 8px;
+  color: #8e9297;
+  font-size: 16px;
+}
+
+.settings-modal-subtitle-content {
+  color: #b9bbbe;
+  font-size: 20px;
+}
+
+.button-container {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+}
+
+.avatar-edit-container {
+  max-height: 32px;
+}
+
+.change-password {
+  color: white;
+}
+
+.change-password:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.settings-sidebar {
+  box-sizing: border-box;
+  padding: 60px 6px 60px 20px;
+  background: #2f3136;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.settings-modal-content {
+  height: 100%;
+}
+
+.settings-modal-grid {
+  height: inherit;
+}
+

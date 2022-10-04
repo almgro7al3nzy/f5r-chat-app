@@ -1,0 +1,65 @@
+/* Message Box */
+.chat-box-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.send-button {
+  display: none;
+}
+
+.message-box {
+  background-color: #40444b;
+  width: 100%;
+  border-radius: 20px!important;
+  margin-bottom: 10px!important;
+}
+
+.chat-form {
+  width: 97%;
+}
+
+.message-box > div:last-child {
+  color: white!important;
+  max-height: initial;
+}
+
+#standard-textarea-label {
+  color: darkgray!important;
+  left: 20px;
+  transform: translate(0, 17px) scale(1);
+}
+
+textarea::placeholder {
+  color: #8e9297!important;
+}
+
+.MuiInput-underline:before, .MuiInput-underline:after {
+  border-bottom: none!important;
+}
+
+.timestamp-text {
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+  color: #72767d;
+  vertical-align: baseline;
+  margin-left: .25rem;
+}
+
+.draw-textarea {
+  position: absolute;
+  color: #000000;
+  font-family: 'whitney-medium';
+  font-size: 20px;
+  white-space: pre;
+  border: none;
+  padding: 0px;
+  resize: none;
+  background: transparent;
+  width: 1px;
+}
+
+.draw-textarea:focus {
+  outline: none;
+}

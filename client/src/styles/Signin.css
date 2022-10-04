@@ -1,0 +1,38 @@
+.back {
+  background: linear-gradient(120grad, rgb(100, 57, 134), rgb(152, 174, 213));
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.error-text {
+  color: red;
+  font-weight: bold;
+}
+
+.img {
+  width: 400px;
+}
+.signin-left {
+  display: block;
+}
+
+.signin-block {
+  text-align: left;
+  background-color: #d8bfd8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid thistle;
+  border-radius: 20px;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.signin-form {
+  display: block;
+  padding-right: 50px;
+}

@@ -1,0 +1,129 @@
+/* Fonts */
+@font-face {
+  font-family: 'whitney-medium';
+  src: url('../assets/fonts/whitney/whitney-medium.otf');
+}
+
+@font-face {
+  font-family: 'whitney-bold';
+  src: url('../assets/fonts/whitney/whitney-bold.otf');
+}
+
+@font-face {
+  font-family: 'whitney-semibold';
+  src: url('../assets/fonts/whitney/whitney-semibold.otf');
+}
+
+@font-face {
+  font-family: 'whitney-book';
+  src: url('../assets/fonts/whitney/whitney-book.otf');
+}
+
+/* Grid */
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class^="col-"] {
+  float: left;
+  min-height: 30px;
+  /* border: 1px solid red; */
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  height: 16px;
+  width: 16px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-color: transparent;
+  background-color: #202225;
+}
+
+::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #2f3136;
+  border: 4px solid #36393f;
+  border-radius: 8px;
+}
+
+.settings-sidebar::-webkit-scrollbar-track-piece {
+  background-color: #2f3136;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Other Globals */
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.whitney-book {
+  font-family: 'whitney-book';
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
+
+.MuiSvgIcon-root {
+  font-size: 1.6em !important;
+  opacity: 0.8 !important;
+}
+
+body {
+  margin: 0px;
+  font-family: 'whitney-medium';
+  /* overflow: hidden; */
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.channel-title-color {
+  color: #8e9297;
+}
+
+#standard-textarea {
+  padding: 0 20px;
+}

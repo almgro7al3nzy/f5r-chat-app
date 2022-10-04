@@ -1,5 +1,6 @@
-# RTCApplication
+# WalkieTalkie
+Walkie Talkie web application that acts as a server for people to come and talk.
+There is a chat, whiteboard, and voice channels.
 
-[Project not mantained]
-
-Voip application that let you create guilds and channels to chat with your friends
+Its hoster here 
+https://bigborg.herokuapp.com/
